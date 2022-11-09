@@ -1,13 +1,16 @@
 <template>
   <div>
-    <h1>La mia prima app vite!!!</h1>
-
-    <img src="../public/img/cane.jpeg" alt="" />
+    <AppTitle />
   </div>
 </template>
 
 <script>
-export default {};
+import AppTitle from "./components/AppTitle.vue";
+export default {
+  components: {
+    AppTitle,
+  },
+};
 </script>
 
 <style lang="scss" scoped></style>
